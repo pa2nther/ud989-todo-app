@@ -68,7 +68,7 @@ var app = app || {};
 		// Toggle the `"completed"` state of the model.
 		toggleCompleted: function () {
 			this.model.toggle();
-			this.$el.html("<p>--<p>");
+			this.model.html("<p>--<p>");
 		},
 
 		// Switch this view into `"editing"` mode, displaying the input field.
